@@ -4,3 +4,9 @@ nums_array.each do |num_array|
         p num_array
     end
 end
+puts "========================="
+nums_array.each do |num_array|
+    if num_array <= 60
+        p num_array
+    end
+end
